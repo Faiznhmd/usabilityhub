@@ -1,0 +1,42 @@
+@import "./variiables";
+
+.footer_main {
+  background-color: #ebf2fa;
+  .footer {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    .company-logo {
+      width: 200px;
+    }
+    .link_column {
+      display: flex;
+      flex-direction: column;
+      margin-right: auto;
+      margin-left: auto;
+
+      p {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+      .ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .li {
+          list-style: none;
+          .a {
+            text-decoration: none;
+            transition: all 0.3s;
+            // color: $secondary-text-color;
+            &:hover {
+              color: $accent-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

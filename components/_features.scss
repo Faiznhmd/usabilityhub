@@ -1,0 +1,63 @@
+@import "./variiables";
+
+.features {
+  display: flex;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  justify-content: center;
+  margin-left: auto;
+  padding-bottom: 0;
+
+  .features__right {
+    .img {
+      width: 500px;
+      padding-right: 40px;
+    }
+  }
+
+  .features__left {
+    padding-left: 50px;
+    padding-right: 50px;
+    .h3 {
+      color: #183b56;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 18px;
+      padding-bottom: 10px;
+    }
+    .h1 {
+      color: #183b56;
+      text-align: left;
+      letter-spacing: -0.5px;
+      font-size: 32px;
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
+    .p {
+      color: #577592;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: left;
+      // margin-right: 50px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .logo_img {
+      width: 100px;
+      padding-bottom: 20px;
+    }
+
+    .para {
+      line-height: 1.5;
+      font-weight: 600;
+    }
+    .div {
+      margin-top: 25px;
+
+      .person_img {
+        width: 50px;
+      }
+    }
+  }
+}

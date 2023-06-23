@@ -1,0 +1,11 @@
+$text-color: #183b56;
+$secondary-text-color: #577592;
+$accent-color: #2294ed;
+$accent-color-dark: #1d69a3;
+$padding-inline: 20px;
+$font-inter: "Inter", sans-serif;
+
+.container {
+  width: min(100% - 32px, 1186px);
+  margin-inline: auto;
+}

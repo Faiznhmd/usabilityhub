@@ -1,0 +1,27 @@
+@import "./variiables";
+
+.last_section {
+  background-color: #b9cde4;
+
+  .instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 15px;
+
+    h4 {
+      font-weight: 400;
+    }
+
+    .last_img {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .img {
+        width: 20px;
+      }
+    }
+  }
+}
